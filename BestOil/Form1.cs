@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -82,55 +83,65 @@ namespace BestOil
 
         private void txtPerLiter_TextChanged(object sender, EventArgs e)
         {
-
-            try
-            {
-                if (!string.IsNullOrWhiteSpace(txtPerLiter.Text) && !string.IsNullOrWhiteSpace(txtPrice.Text))
+            if (LookTxt(txtPerLiter))
+                try
                 {
-                    txtPerLiter.Text = txtPerLiter.Text.Replace('.', ',');
-                    txtPerLiter.SelectionStart = txtPerLiter.Text.Length;
-                    var temp = Convert.ToDouble(txtPerLiter.Text) * Convert.ToDouble(txtPrice.Text);
-                    var num1 = (int)temp;
-                    var num2 = (int)((temp - num1) * 100);
-                    lblGasolinePrice.Text = $"{num1},{num2}";
+                    if (!string.IsNullOrWhiteSpace(txtPerLiter.Text) && !string.IsNullOrWhiteSpace(txtPrice.Text))
+                    {
+                        txtPerLiter.Text = txtPerLiter.Text.Replace('.', ',');
+                        txtPerLiter.SelectionStart = txtPerLiter.Text.Length;
+                        var temp = Convert.ToDouble(txtPerLiter.Text) * Convert.ToDouble(txtPrice.Text);
+                        var num1 = (int)temp;
+                        var num2 = (int)((temp - num1) * 100);
+                        lblGasolinePrice.Text = $"{num1},{num2}";
+                    }
+                    else
+                    {
+                        lblGasolinePrice.Text = $"";
+                    }
                 }
-                else
+                catch
                 {
-                    lblGasolinePrice.Text = $"";
+                    lblGasolinePrice.Text = "";
+                    txtPerLiter.Text = txtPerLiter.Text.Substring(0, txtPerLiter.Text.Length - 1); ;
                 }
-            }
-            catch
-            {
-                lblGasolinePrice.Text = "";
-                txtPerLiter.Text = txtPerLiter.Text.Substring(0, txtPerLiter.Text.Length - 1); ;
-            }
         }
-
+        bool LookTxt(in Guna2TextBox txt)
+        {
+            if (!string.IsNullOrEmpty(txt.Text))
+                if (txt.Text[0] == '.' || txt.Text[0] == ',' || txt.Text[0] == '0')
+                {
+                    txt.Clear();
+                    return false;
+                }
+            return true;
+        }
         private void txtForPrice_TextChanged(object sender, EventArgs e)
         {
 
-            try
-            {
-                if (!string.IsNullOrWhiteSpace(txtForPrice.Text) && !string.IsNullOrWhiteSpace(txtPrice.Text))
+            if (LookTxt(txtForPrice))
+                try
                 {
+                    if (!string.IsNullOrWhiteSpace(txtForPrice.Text) && !string.IsNullOrWhiteSpace(txtPrice.Text))
+                    {
 
-                    txtForPrice.Text = txtForPrice.Text.Replace('.', ',');
-                    txtForPrice.SelectionStart = txtForPrice.Text.Length;
-                    var temp = Convert.ToDouble(txtForPrice.Text) / Convert.ToDouble(txtPrice.Text);
-                    int num1 = (int)temp;
-                    int num2 = (int)((temp - num1) * 100);
-                    lblGasolinePrice.Text = $"{num1},{num2}";
+                        txtForPrice.Text = txtForPrice.Text.Replace('.', ',');
+                        txtForPrice.SelectionStart = txtForPrice.Text.Length;
+                        var temp = Convert.ToDouble(txtForPrice.Text) / Convert.ToDouble(txtPrice.Text);
+                        int num1 = (int)temp;
+                        int num2 = (int)((temp - num1) * 100);
+                        lblGasolinePrice.Text = $"{num1},{num2}";
+                    }
+                    else
+                    {
+                        lblGasolinePrice.Text = "";
+                    }
                 }
-                else
+                catch
                 {
                     lblGasolinePrice.Text = "";
+                    txtForPrice.Text = txtForPrice.Text.Substring(0, txtForPrice.Text.Length - 1); ;
                 }
-            }
-            catch
-            {
-                lblGasolinePrice.Text = "";
-                txtForPrice.Text = txtForPrice.Text.Substring(0, txtForPrice.Text.Length - 1); ;
-            }
         }
         void TxtTextChanged(ref Guna.UI2.WinForms.Guna2TextBox Text1, ref Guna.UI2.WinForms.Guna2TextBox Text2, double price)
         {
@@ -187,7 +198,8 @@ namespace BestOil
 
         private void txtQuanityHotDog_TextChanged(object sender, EventArgs e)
         {
-            TxtTextChanged(ref txtQuanityHotDog, ref txtHotdogPrice, 3.5);
+            if (LookTxt(txtQuanityHotDog))
+                TxtTextChanged(ref txtQuanityHotDog, ref txtHotdogPrice, 3.5);
         }
         private void CheckBoxHamburger_CheckedChanged(object sender, EventArgs e)
         {
@@ -196,7 +208,9 @@ namespace BestOil
 
         private void txtQuanityHamburger_TextChanged(object sender, EventArgs e)
         {
-            TxtTextChanged(ref txtQuanityHamburger, ref txtHamburgerPrice, 5.3);
+            if (LookTxt(txtQuanityHamburger))
+
+                TxtTextChanged(ref txtQuanityHamburger, ref txtHamburgerPrice, 5.3);
         }
 
         private void CheckBoxFries_CheckedChanged(object sender, EventArgs e)
@@ -206,7 +220,9 @@ namespace BestOil
 
         private void txtQuanityFries_TextChanged(object sender, EventArgs e)
         {
-            TxtTextChanged(ref txtQuanityFries, ref txtFriesPrice, 4.1);
+            if (LookTxt(txtQuanityFries))
+
+                TxtTextChanged(ref txtQuanityFries, ref txtFriesPrice, 4.1);
         }
         private void CheckBoxCola_CheckedChanged(object sender, EventArgs e)
         {
@@ -215,7 +231,9 @@ namespace BestOil
 
         private void txtQuanityCola_TextChanged(object sender, EventArgs e)
         {
-            TxtTextChanged(ref txtQuanityCola, ref txtColaPrice, 1.0);
+            if (LookTxt(txtQuanityCola))
+
+                TxtTextChanged(ref txtQuanityCola, ref txtColaPrice, 1.0);
         }
 
         private void btnCalculate_Click(object sender, EventArgs e)
