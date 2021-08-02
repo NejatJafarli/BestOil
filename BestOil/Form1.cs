@@ -222,11 +222,13 @@ namespace BestOil
         {
             double Sum = 0;
             if (RadioButtonForPrice.Checked)
+            {
                 if (!string.IsNullOrWhiteSpace(txtForPrice.Text))
                     Sum += Convert.ToDouble(txtForPrice.Text);
-                else
+            }
+            else
                 if (!string.IsNullOrWhiteSpace(lblGasolinePrice.Text))
-                    Sum += Convert.ToDouble(lblGasolinePrice.Text);
+                Sum += Convert.ToDouble(lblGasolinePrice.Text);
             if (!string.IsNullOrWhiteSpace(txtMarketPrice.Text))
                 Sum += Convert.ToDouble(txtMarketPrice.Text);
             txtAllPrice.Text = $"{Sum}";
