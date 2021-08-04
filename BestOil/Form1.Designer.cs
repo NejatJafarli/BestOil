@@ -35,72 +35,72 @@ namespace BestOil
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2ShadowPanel3 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.lblGasolinePrice = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.txtForPrice = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtPerLiter = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.RadioButtonForPrice = new Guna.UI2.WinForms.Guna2RadioButton();
             this.RadiobtnPerLiter = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.txtPrice = new Guna.UI2.WinForms.Guna2TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.ComboBoxOil = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2ShadowPanel4 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2ShadowPanel5 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.guna2PictureBox8 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.txtMarketPrice = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.CheckBoxCola = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.CheckBoxFries = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.ChechBoxHotDog = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.CheckBoxHamburger = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.guna2ShadowPanel6 = new Guna.UI2.WinForms.Guna2ShadowPanel();
-            this.txtAllPrice = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.guna2PictureBox11 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox8 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.txtQuanityCola = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtColaPrice = new Guna.UI2.WinForms.Guna2TextBox();
+            this.CheckBoxCola = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.txtQuanityFries = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtFriesPrice = new Guna.UI2.WinForms.Guna2TextBox();
+            this.CheckBoxFries = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.ChechBoxHotDog = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.txtQuanityHamburger = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtHamburgerPrice = new Guna.UI2.WinForms.Guna2TextBox();
+            this.CheckBoxHamburger = new Guna.UI2.WinForms.Guna2CheckBox();
             this.txtQuanityHotDog = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.txtHotdogPrice = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.txtForPrice = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txtPerLiter = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txtPrice = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.guna2ShadowPanel6 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.btnCalculate = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2PictureBox11 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.txtAllPrice = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2ShadowPanel1.SuspendLayout();
             this.guna2ShadowPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             this.guna2ShadowPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             this.guna2ShadowPanel4.SuspendLayout();
             this.guna2ShadowPanel5.SuspendLayout();
-            this.guna2ShadowPanel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            this.guna2ShadowPanel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2ShadowForm1
@@ -173,6 +173,19 @@ namespace BestOil
             this.guna2ShadowPanel3.Size = new System.Drawing.Size(293, 114);
             this.guna2ShadowPanel3.TabIndex = 12;
             // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.Image = global::BestOil.Properties.Resources.icons8_cash_app_48;
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(228, 20);
+            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(20, 20, 10, 10);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.Padding = new System.Windows.Forms.Padding(3);
+            this.guna2PictureBox3.ShadowDecoration.Parent = this.guna2PictureBox3;
+            this.guna2PictureBox3.Size = new System.Drawing.Size(55, 54);
+            this.guna2PictureBox3.TabIndex = 13;
+            this.guna2PictureBox3.TabStop = false;
+            // 
             // lblGasolinePrice
             // 
             this.lblGasolinePrice.AutoSize = true;
@@ -192,6 +205,70 @@ namespace BestOil
             this.label3.Size = new System.Drawing.Size(57, 25);
             this.label3.TabIndex = 13;
             this.label3.Text = "AZN";
+            // 
+            // txtForPrice
+            // 
+            this.txtForPrice.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(82)))), ((int)(((byte)(215)))));
+            this.txtForPrice.BorderRadius = 5;
+            this.txtForPrice.BorderThickness = 3;
+            this.txtForPrice.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtForPrice.DefaultText = "";
+            this.txtForPrice.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtForPrice.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtForPrice.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtForPrice.DisabledState.Parent = this.txtForPrice;
+            this.txtForPrice.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtForPrice.Enabled = false;
+            this.txtForPrice.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtForPrice.FocusedState.Parent = this.txtForPrice;
+            this.txtForPrice.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtForPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtForPrice.HoverState.Parent = this.txtForPrice;
+            this.txtForPrice.IconRight = global::BestOil.Properties.Resources.icons8_pay_48;
+            this.txtForPrice.IconRightSize = new System.Drawing.Size(40, 40);
+            this.txtForPrice.Location = new System.Drawing.Point(174, 201);
+            this.txtForPrice.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txtForPrice.Name = "txtForPrice";
+            this.txtForPrice.PasswordChar = '\0';
+            this.txtForPrice.PlaceholderText = "";
+            this.txtForPrice.SelectedText = "";
+            this.txtForPrice.ShadowDecoration.Parent = this.txtForPrice;
+            this.txtForPrice.Size = new System.Drawing.Size(150, 36);
+            this.txtForPrice.TabIndex = 4;
+            this.txtForPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtForPrice.TextChanged += new System.EventHandler(this.txtForPrice_TextChanged);
+            // 
+            // txtPerLiter
+            // 
+            this.txtPerLiter.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(82)))), ((int)(((byte)(215)))));
+            this.txtPerLiter.BorderRadius = 5;
+            this.txtPerLiter.BorderThickness = 3;
+            this.txtPerLiter.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtPerLiter.DefaultText = "";
+            this.txtPerLiter.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtPerLiter.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtPerLiter.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPerLiter.DisabledState.Parent = this.txtPerLiter;
+            this.txtPerLiter.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPerLiter.Enabled = false;
+            this.txtPerLiter.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPerLiter.FocusedState.Parent = this.txtPerLiter;
+            this.txtPerLiter.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPerLiter.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPerLiter.HoverState.Parent = this.txtPerLiter;
+            this.txtPerLiter.IconRight = global::BestOil.Properties.Resources.icons8_petrol_48;
+            this.txtPerLiter.IconRightSize = new System.Drawing.Size(30, 30);
+            this.txtPerLiter.Location = new System.Drawing.Point(174, 153);
+            this.txtPerLiter.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txtPerLiter.Name = "txtPerLiter";
+            this.txtPerLiter.PasswordChar = '\0';
+            this.txtPerLiter.PlaceholderText = "";
+            this.txtPerLiter.SelectedText = "";
+            this.txtPerLiter.ShadowDecoration.Parent = this.txtPerLiter;
+            this.txtPerLiter.Size = new System.Drawing.Size(150, 36);
+            this.txtPerLiter.TabIndex = 3;
+            this.txtPerLiter.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtPerLiter.TextChanged += new System.EventHandler(this.txtPerLiter_TextChanged);
             // 
             // guna2ShadowPanel2
             // 
@@ -253,6 +330,41 @@ namespace BestOil
             this.RadiobtnPerLiter.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
             this.RadiobtnPerLiter.CheckedChanged += new System.EventHandler(this.RadiobtnPerLiter_CheckedChanged);
             // 
+            // txtPrice
+            // 
+            this.txtPrice.Animated = true;
+            this.txtPrice.AutoSize = true;
+            this.txtPrice.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(82)))), ((int)(((byte)(215)))));
+            this.txtPrice.BorderRadius = 5;
+            this.txtPrice.BorderThickness = 2;
+            this.txtPrice.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtPrice.DefaultText = "";
+            this.txtPrice.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtPrice.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtPrice.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPrice.DisabledState.Parent = this.txtPrice;
+            this.txtPrice.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPrice.Enabled = false;
+            this.txtPrice.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPrice.FocusedState.Parent = this.txtPrice;
+            this.txtPrice.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice.ForeColor = System.Drawing.Color.Lime;
+            this.txtPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPrice.HoverState.Parent = this.txtPrice;
+            this.txtPrice.IconRight = global::BestOil.Properties.Resources.icons8_cash_app_48;
+            this.txtPrice.IconRightSize = new System.Drawing.Size(30, 30);
+            this.txtPrice.Location = new System.Drawing.Point(174, 91);
+            this.txtPrice.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txtPrice.Name = "txtPrice";
+            this.txtPrice.PasswordChar = '\0';
+            this.txtPrice.PlaceholderForeColor = System.Drawing.Color.Lime;
+            this.txtPrice.PlaceholderText = "";
+            this.txtPrice.SelectedText = "";
+            this.txtPrice.ShadowDecoration.Parent = this.txtPrice;
+            this.txtPrice.Size = new System.Drawing.Size(83, 39);
+            this.txtPrice.TabIndex = 7;
+            this.txtPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -262,6 +374,19 @@ namespace BestOil
             this.label2.Size = new System.Drawing.Size(66, 25);
             this.label2.TabIndex = 6;
             this.label2.Text = "Price";
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.Image = global::BestOil.Properties.Resources.icons8_price_48;
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(20, 82);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(20, 20, 10, 10);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Padding = new System.Windows.Forms.Padding(3);
+            this.guna2PictureBox2.ShadowDecoration.Parent = this.guna2PictureBox2;
+            this.guna2PictureBox2.Size = new System.Drawing.Size(55, 54);
+            this.guna2PictureBox2.TabIndex = 5;
+            this.guna2PictureBox2.TabStop = false;
             // 
             // ComboBoxOil
             // 
@@ -299,6 +424,19 @@ namespace BestOil
             this.label1.Size = new System.Drawing.Size(105, 25);
             this.label1.TabIndex = 3;
             this.label1.Text = "Gasoline";
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.Image = global::BestOil.Properties.Resources.icons8_gasoline_refill_48;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(17, 20);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(20, 20, 10, 10);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Padding = new System.Windows.Forms.Padding(3);
+            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
+            this.guna2PictureBox1.Size = new System.Drawing.Size(55, 54);
+            this.guna2PictureBox1.TabIndex = 2;
+            this.guna2PictureBox1.TabStop = false;
             // 
             // guna2Panel1
             // 
@@ -359,6 +497,19 @@ namespace BestOil
             this.guna2ShadowPanel5.Size = new System.Drawing.Size(381, 114);
             this.guna2ShadowPanel5.TabIndex = 14;
             // 
+            // guna2PictureBox8
+            // 
+            this.guna2PictureBox8.Image = global::BestOil.Properties.Resources.icons8_cash_app_48;
+            this.guna2PictureBox8.ImageRotate = 0F;
+            this.guna2PictureBox8.Location = new System.Drawing.Point(324, 20);
+            this.guna2PictureBox8.Margin = new System.Windows.Forms.Padding(20, 20, 10, 10);
+            this.guna2PictureBox8.Name = "guna2PictureBox8";
+            this.guna2PictureBox8.Padding = new System.Windows.Forms.Padding(3);
+            this.guna2PictureBox8.ShadowDecoration.Parent = this.guna2PictureBox8;
+            this.guna2PictureBox8.Size = new System.Drawing.Size(55, 54);
+            this.guna2PictureBox8.TabIndex = 13;
+            this.guna2PictureBox8.TabStop = false;
+            // 
             // txtMarketPrice
             // 
             this.txtMarketPrice.AutoSize = true;
@@ -378,217 +529,6 @@ namespace BestOil
             this.label7.Size = new System.Drawing.Size(57, 25);
             this.label7.TabIndex = 13;
             this.label7.Text = "AZN";
-            // 
-            // CheckBoxCola
-            // 
-            this.CheckBoxCola.Animated = true;
-            this.CheckBoxCola.AutoSize = true;
-            this.CheckBoxCola.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.CheckBoxCola.CheckedState.BorderRadius = 0;
-            this.CheckBoxCola.CheckedState.BorderThickness = 2;
-            this.CheckBoxCola.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(82)))), ((int)(((byte)(215)))));
-            this.CheckBoxCola.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.CheckBoxCola.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.CheckBoxCola.Location = new System.Drawing.Point(63, 178);
-            this.CheckBoxCola.Name = "CheckBoxCola";
-            this.CheckBoxCola.Size = new System.Drawing.Size(126, 28);
-            this.CheckBoxCola.TabIndex = 11;
-            this.CheckBoxCola.Text = "Coca-Cola";
-            this.CheckBoxCola.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.CheckBoxCola.UncheckedState.BorderRadius = 0;
-            this.CheckBoxCola.UncheckedState.BorderThickness = 1;
-            this.CheckBoxCola.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.CheckBoxCola.CheckedChanged += new System.EventHandler(this.CheckBoxCola_CheckedChanged);
-            // 
-            // CheckBoxFries
-            // 
-            this.CheckBoxFries.Animated = true;
-            this.CheckBoxFries.AutoSize = true;
-            this.CheckBoxFries.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.CheckBoxFries.CheckedState.BorderRadius = 0;
-            this.CheckBoxFries.CheckedState.BorderThickness = 2;
-            this.CheckBoxFries.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(82)))), ((int)(((byte)(215)))));
-            this.CheckBoxFries.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.CheckBoxFries.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.CheckBoxFries.Location = new System.Drawing.Point(61, 130);
-            this.CheckBoxFries.Name = "CheckBoxFries";
-            this.CheckBoxFries.Size = new System.Drawing.Size(139, 28);
-            this.CheckBoxFries.TabIndex = 9;
-            this.CheckBoxFries.Text = "Patato Fries";
-            this.CheckBoxFries.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.CheckBoxFries.UncheckedState.BorderRadius = 0;
-            this.CheckBoxFries.UncheckedState.BorderThickness = 1;
-            this.CheckBoxFries.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.CheckBoxFries.CheckedChanged += new System.EventHandler(this.CheckBoxFries_CheckedChanged);
-            // 
-            // ChechBoxHotDog
-            // 
-            this.ChechBoxHotDog.Animated = true;
-            this.ChechBoxHotDog.AutoSize = true;
-            this.ChechBoxHotDog.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.ChechBoxHotDog.CheckedState.BorderRadius = 0;
-            this.ChechBoxHotDog.CheckedState.BorderThickness = 2;
-            this.ChechBoxHotDog.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(82)))), ((int)(((byte)(215)))));
-            this.ChechBoxHotDog.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ChechBoxHotDog.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ChechBoxHotDog.Location = new System.Drawing.Point(61, 34);
-            this.ChechBoxHotDog.Name = "ChechBoxHotDog";
-            this.ChechBoxHotDog.Size = new System.Drawing.Size(106, 28);
-            this.ChechBoxHotDog.TabIndex = 5;
-            this.ChechBoxHotDog.Text = "Hot-Dog";
-            this.ChechBoxHotDog.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.ChechBoxHotDog.UncheckedState.BorderRadius = 0;
-            this.ChechBoxHotDog.UncheckedState.BorderThickness = 1;
-            this.ChechBoxHotDog.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.ChechBoxHotDog.CheckedChanged += new System.EventHandler(this.ChechBoxHotDog_CheckedChanged);
-            // 
-            // CheckBoxHamburger
-            // 
-            this.CheckBoxHamburger.Animated = true;
-            this.CheckBoxHamburger.AutoSize = true;
-            this.CheckBoxHamburger.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.CheckBoxHamburger.CheckedState.BorderRadius = 0;
-            this.CheckBoxHamburger.CheckedState.BorderThickness = 2;
-            this.CheckBoxHamburger.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(82)))), ((int)(((byte)(215)))));
-            this.CheckBoxHamburger.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.CheckBoxHamburger.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CheckBoxHamburger.Location = new System.Drawing.Point(61, 82);
-            this.CheckBoxHamburger.Name = "CheckBoxHamburger";
-            this.CheckBoxHamburger.Size = new System.Drawing.Size(134, 28);
-            this.CheckBoxHamburger.TabIndex = 7;
-            this.CheckBoxHamburger.Text = "Hamburger";
-            this.CheckBoxHamburger.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.CheckBoxHamburger.UncheckedState.BorderRadius = 0;
-            this.CheckBoxHamburger.UncheckedState.BorderThickness = 1;
-            this.CheckBoxHamburger.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.CheckBoxHamburger.CheckedChanged += new System.EventHandler(this.CheckBoxHamburger_CheckedChanged);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(330, 6);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(87, 25);
-            this.label5.TabIndex = 21;
-            this.label5.Text = "Quatity";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(205, 6);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 25);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "Price";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(91, 54);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(135, 25);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "Gas Station";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(439, 58);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(112, 25);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "Mini Cafe";
-            // 
-            // guna2ShadowPanel6
-            // 
-            this.guna2ShadowPanel6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ShadowPanel6.Controls.Add(this.btnCalculate);
-            this.guna2ShadowPanel6.Controls.Add(this.guna2PictureBox11);
-            this.guna2ShadowPanel6.Controls.Add(this.txtAllPrice);
-            this.guna2ShadowPanel6.Controls.Add(this.label10);
-            this.guna2ShadowPanel6.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel6.Location = new System.Drawing.Point(12, 478);
-            this.guna2ShadowPanel6.Name = "guna2ShadowPanel6";
-            this.guna2ShadowPanel6.Radius = 10;
-            this.guna2ShadowPanel6.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel6.Size = new System.Drawing.Size(773, 114);
-            this.guna2ShadowPanel6.TabIndex = 15;
-            // 
-            // txtAllPrice
-            // 
-            this.txtAllPrice.AutoSize = true;
-            this.txtAllPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAllPrice.Location = new System.Drawing.Point(596, 38);
-            this.txtAllPrice.Name = "txtAllPrice";
-            this.txtAllPrice.Size = new System.Drawing.Size(51, 25);
-            this.txtAllPrice.TabIndex = 13;
-            this.txtAllPrice.Text = "000";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(653, 38);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(57, 25);
-            this.label10.TabIndex = 13;
-            this.label10.Text = "AZN";
-            // 
-            // guna2PictureBox11
-            // 
-            this.guna2PictureBox11.Image = global::BestOil.Properties.Resources.icons8_cash_app_48;
-            this.guna2PictureBox11.ImageRotate = 0F;
-            this.guna2PictureBox11.Location = new System.Drawing.Point(709, 20);
-            this.guna2PictureBox11.Margin = new System.Windows.Forms.Padding(20, 20, 10, 10);
-            this.guna2PictureBox11.Name = "guna2PictureBox11";
-            this.guna2PictureBox11.Padding = new System.Windows.Forms.Padding(3);
-            this.guna2PictureBox11.ShadowDecoration.Parent = this.guna2PictureBox11;
-            this.guna2PictureBox11.Size = new System.Drawing.Size(55, 54);
-            this.guna2PictureBox11.TabIndex = 13;
-            this.guna2PictureBox11.TabStop = false;
-            // 
-            // guna2PictureBox10
-            // 
-            this.guna2PictureBox10.Image = global::BestOil.Properties.Resources.icons8_cafe_building_48;
-            this.guna2PictureBox10.ImageRotate = 0F;
-            this.guna2PictureBox10.Location = new System.Drawing.Point(380, 29);
-            this.guna2PictureBox10.Margin = new System.Windows.Forms.Padding(20, 20, 10, 10);
-            this.guna2PictureBox10.Name = "guna2PictureBox10";
-            this.guna2PictureBox10.Padding = new System.Windows.Forms.Padding(3);
-            this.guna2PictureBox10.ShadowDecoration.Parent = this.guna2PictureBox10;
-            this.guna2PictureBox10.Size = new System.Drawing.Size(55, 54);
-            this.guna2PictureBox10.TabIndex = 14;
-            this.guna2PictureBox10.TabStop = false;
-            // 
-            // guna2PictureBox9
-            // 
-            this.guna2PictureBox9.Image = global::BestOil.Properties.Resources.icons8_gas_station_50;
-            this.guna2PictureBox9.ImageRotate = 0F;
-            this.guna2PictureBox9.Location = new System.Drawing.Point(32, 25);
-            this.guna2PictureBox9.Margin = new System.Windows.Forms.Padding(20, 20, 10, 10);
-            this.guna2PictureBox9.Name = "guna2PictureBox9";
-            this.guna2PictureBox9.Padding = new System.Windows.Forms.Padding(3);
-            this.guna2PictureBox9.ShadowDecoration.Parent = this.guna2PictureBox9;
-            this.guna2PictureBox9.Size = new System.Drawing.Size(55, 54);
-            this.guna2PictureBox9.TabIndex = 13;
-            this.guna2PictureBox9.TabStop = false;
-            // 
-            // guna2PictureBox8
-            // 
-            this.guna2PictureBox8.Image = global::BestOil.Properties.Resources.icons8_cash_app_48;
-            this.guna2PictureBox8.ImageRotate = 0F;
-            this.guna2PictureBox8.Location = new System.Drawing.Point(324, 20);
-            this.guna2PictureBox8.Margin = new System.Windows.Forms.Padding(20, 20, 10, 10);
-            this.guna2PictureBox8.Name = "guna2PictureBox8";
-            this.guna2PictureBox8.Padding = new System.Windows.Forms.Padding(3);
-            this.guna2PictureBox8.ShadowDecoration.Parent = this.guna2PictureBox8;
-            this.guna2PictureBox8.Size = new System.Drawing.Size(55, 54);
-            this.guna2PictureBox8.TabIndex = 13;
-            this.guna2PictureBox8.TabStop = false;
             // 
             // txtQuanityCola
             // 
@@ -652,6 +592,27 @@ namespace BestOil
             this.txtColaPrice.ShadowDecoration.Parent = this.txtColaPrice;
             this.txtColaPrice.Size = new System.Drawing.Size(101, 33);
             this.txtColaPrice.TabIndex = 35;
+            // 
+            // CheckBoxCola
+            // 
+            this.CheckBoxCola.Animated = true;
+            this.CheckBoxCola.AutoSize = true;
+            this.CheckBoxCola.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CheckBoxCola.CheckedState.BorderRadius = 0;
+            this.CheckBoxCola.CheckedState.BorderThickness = 2;
+            this.CheckBoxCola.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(82)))), ((int)(((byte)(215)))));
+            this.CheckBoxCola.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CheckBoxCola.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.CheckBoxCola.Location = new System.Drawing.Point(63, 178);
+            this.CheckBoxCola.Name = "CheckBoxCola";
+            this.CheckBoxCola.Size = new System.Drawing.Size(126, 28);
+            this.CheckBoxCola.TabIndex = 11;
+            this.CheckBoxCola.Text = "Coca-Cola";
+            this.CheckBoxCola.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CheckBoxCola.UncheckedState.BorderRadius = 0;
+            this.CheckBoxCola.UncheckedState.BorderThickness = 1;
+            this.CheckBoxCola.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.CheckBoxCola.CheckedChanged += new System.EventHandler(this.CheckBoxCola_CheckedChanged);
             // 
             // guna2PictureBox7
             // 
@@ -729,6 +690,27 @@ namespace BestOil
             this.txtFriesPrice.Size = new System.Drawing.Size(101, 33);
             this.txtFriesPrice.TabIndex = 31;
             // 
+            // CheckBoxFries
+            // 
+            this.CheckBoxFries.Animated = true;
+            this.CheckBoxFries.AutoSize = true;
+            this.CheckBoxFries.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CheckBoxFries.CheckedState.BorderRadius = 0;
+            this.CheckBoxFries.CheckedState.BorderThickness = 2;
+            this.CheckBoxFries.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(82)))), ((int)(((byte)(215)))));
+            this.CheckBoxFries.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CheckBoxFries.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.CheckBoxFries.Location = new System.Drawing.Point(61, 130);
+            this.CheckBoxFries.Name = "CheckBoxFries";
+            this.CheckBoxFries.Size = new System.Drawing.Size(139, 28);
+            this.CheckBoxFries.TabIndex = 9;
+            this.CheckBoxFries.Text = "Patato Fries";
+            this.CheckBoxFries.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CheckBoxFries.UncheckedState.BorderRadius = 0;
+            this.CheckBoxFries.UncheckedState.BorderThickness = 1;
+            this.CheckBoxFries.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.CheckBoxFries.CheckedChanged += new System.EventHandler(this.CheckBoxFries_CheckedChanged);
+            // 
             // guna2PictureBox6
             // 
             this.guna2PictureBox6.Image = global::BestOil.Properties.Resources.icons8_french_fries_48;
@@ -741,6 +723,27 @@ namespace BestOil
             this.guna2PictureBox6.Size = new System.Drawing.Size(55, 54);
             this.guna2PictureBox6.TabIndex = 29;
             this.guna2PictureBox6.TabStop = false;
+            // 
+            // ChechBoxHotDog
+            // 
+            this.ChechBoxHotDog.Animated = true;
+            this.ChechBoxHotDog.AutoSize = true;
+            this.ChechBoxHotDog.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ChechBoxHotDog.CheckedState.BorderRadius = 0;
+            this.ChechBoxHotDog.CheckedState.BorderThickness = 2;
+            this.ChechBoxHotDog.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(82)))), ((int)(((byte)(215)))));
+            this.ChechBoxHotDog.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ChechBoxHotDog.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ChechBoxHotDog.Location = new System.Drawing.Point(61, 34);
+            this.ChechBoxHotDog.Name = "ChechBoxHotDog";
+            this.ChechBoxHotDog.Size = new System.Drawing.Size(106, 28);
+            this.ChechBoxHotDog.TabIndex = 5;
+            this.ChechBoxHotDog.Text = "Hot-Dog";
+            this.ChechBoxHotDog.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ChechBoxHotDog.UncheckedState.BorderRadius = 0;
+            this.ChechBoxHotDog.UncheckedState.BorderThickness = 1;
+            this.ChechBoxHotDog.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.ChechBoxHotDog.CheckedChanged += new System.EventHandler(this.ChechBoxHotDog_CheckedChanged);
             // 
             // guna2PictureBox5
             // 
@@ -818,6 +821,27 @@ namespace BestOil
             this.txtHamburgerPrice.Size = new System.Drawing.Size(101, 33);
             this.txtHamburgerPrice.TabIndex = 25;
             // 
+            // CheckBoxHamburger
+            // 
+            this.CheckBoxHamburger.Animated = true;
+            this.CheckBoxHamburger.AutoSize = true;
+            this.CheckBoxHamburger.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CheckBoxHamburger.CheckedState.BorderRadius = 0;
+            this.CheckBoxHamburger.CheckedState.BorderThickness = 2;
+            this.CheckBoxHamburger.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(82)))), ((int)(((byte)(215)))));
+            this.CheckBoxHamburger.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CheckBoxHamburger.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CheckBoxHamburger.Location = new System.Drawing.Point(61, 82);
+            this.CheckBoxHamburger.Name = "CheckBoxHamburger";
+            this.CheckBoxHamburger.Size = new System.Drawing.Size(134, 28);
+            this.CheckBoxHamburger.TabIndex = 7;
+            this.CheckBoxHamburger.Text = "Hamburger";
+            this.CheckBoxHamburger.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CheckBoxHamburger.UncheckedState.BorderRadius = 0;
+            this.CheckBoxHamburger.UncheckedState.BorderThickness = 1;
+            this.CheckBoxHamburger.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.CheckBoxHamburger.CheckedChanged += new System.EventHandler(this.CheckBoxHamburger_CheckedChanged);
+            // 
             // txtQuanityHotDog
             // 
             this.txtQuanityHotDog.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(82)))), ((int)(((byte)(215)))));
@@ -849,6 +873,26 @@ namespace BestOil
             this.txtQuanityHotDog.Size = new System.Drawing.Size(74, 33);
             this.txtQuanityHotDog.TabIndex = 6;
             this.txtQuanityHotDog.TextChanged += new System.EventHandler(this.txtQuanityHotDog_TextChanged);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(330, 6);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(87, 25);
+            this.label5.TabIndex = 21;
+            this.label5.Text = "Quatity";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(205, 6);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(66, 25);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Price";
             // 
             // txtHotdogPrice
             // 
@@ -894,143 +938,40 @@ namespace BestOil
             this.guna2PictureBox4.TabIndex = 13;
             this.guna2PictureBox4.TabStop = false;
             // 
-            // guna2PictureBox3
+            // label6
             // 
-            this.guna2PictureBox3.Image = global::BestOil.Properties.Resources.icons8_cash_app_48;
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(228, 20);
-            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(20, 20, 10, 10);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Padding = new System.Windows.Forms.Padding(3);
-            this.guna2PictureBox3.ShadowDecoration.Parent = this.guna2PictureBox3;
-            this.guna2PictureBox3.Size = new System.Drawing.Size(55, 54);
-            this.guna2PictureBox3.TabIndex = 13;
-            this.guna2PictureBox3.TabStop = false;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(91, 54);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(135, 25);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Gas Station";
             // 
-            // txtForPrice
+            // label8
             // 
-            this.txtForPrice.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(82)))), ((int)(((byte)(215)))));
-            this.txtForPrice.BorderRadius = 5;
-            this.txtForPrice.BorderThickness = 3;
-            this.txtForPrice.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtForPrice.DefaultText = "";
-            this.txtForPrice.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtForPrice.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtForPrice.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtForPrice.DisabledState.Parent = this.txtForPrice;
-            this.txtForPrice.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtForPrice.Enabled = false;
-            this.txtForPrice.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtForPrice.FocusedState.Parent = this.txtForPrice;
-            this.txtForPrice.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtForPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtForPrice.HoverState.Parent = this.txtForPrice;
-            this.txtForPrice.IconRight = global::BestOil.Properties.Resources.icons8_pay_48;
-            this.txtForPrice.IconRightSize = new System.Drawing.Size(40, 40);
-            this.txtForPrice.Location = new System.Drawing.Point(174, 201);
-            this.txtForPrice.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.txtForPrice.Name = "txtForPrice";
-            this.txtForPrice.PasswordChar = '\0';
-            this.txtForPrice.PlaceholderText = "";
-            this.txtForPrice.SelectedText = "";
-            this.txtForPrice.ShadowDecoration.Parent = this.txtForPrice;
-            this.txtForPrice.Size = new System.Drawing.Size(150, 36);
-            this.txtForPrice.TabIndex = 4;
-            this.txtForPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtForPrice.TextChanged += new System.EventHandler(this.txtForPrice_TextChanged);
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(439, 58);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(112, 25);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "Mini Cafe";
             // 
-            // txtPerLiter
+            // guna2ShadowPanel6
             // 
-            this.txtPerLiter.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(82)))), ((int)(((byte)(215)))));
-            this.txtPerLiter.BorderRadius = 5;
-            this.txtPerLiter.BorderThickness = 3;
-            this.txtPerLiter.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtPerLiter.DefaultText = "";
-            this.txtPerLiter.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtPerLiter.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtPerLiter.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtPerLiter.DisabledState.Parent = this.txtPerLiter;
-            this.txtPerLiter.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtPerLiter.Enabled = false;
-            this.txtPerLiter.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPerLiter.FocusedState.Parent = this.txtPerLiter;
-            this.txtPerLiter.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPerLiter.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPerLiter.HoverState.Parent = this.txtPerLiter;
-            this.txtPerLiter.IconRight = global::BestOil.Properties.Resources.icons8_petrol_48;
-            this.txtPerLiter.IconRightSize = new System.Drawing.Size(30, 30);
-            this.txtPerLiter.Location = new System.Drawing.Point(174, 153);
-            this.txtPerLiter.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.txtPerLiter.Name = "txtPerLiter";
-            this.txtPerLiter.PasswordChar = '\0';
-            this.txtPerLiter.PlaceholderText = "";
-            this.txtPerLiter.SelectedText = "";
-            this.txtPerLiter.ShadowDecoration.Parent = this.txtPerLiter;
-            this.txtPerLiter.Size = new System.Drawing.Size(150, 36);
-            this.txtPerLiter.TabIndex = 3;
-            this.txtPerLiter.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtPerLiter.TextChanged += new System.EventHandler(this.txtPerLiter_TextChanged);
-            // 
-            // txtPrice
-            // 
-            this.txtPrice.Animated = true;
-            this.txtPrice.AutoSize = true;
-            this.txtPrice.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(82)))), ((int)(((byte)(215)))));
-            this.txtPrice.BorderRadius = 5;
-            this.txtPrice.BorderThickness = 2;
-            this.txtPrice.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtPrice.DefaultText = "";
-            this.txtPrice.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtPrice.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtPrice.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtPrice.DisabledState.Parent = this.txtPrice;
-            this.txtPrice.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtPrice.Enabled = false;
-            this.txtPrice.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPrice.FocusedState.Parent = this.txtPrice;
-            this.txtPrice.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPrice.ForeColor = System.Drawing.Color.Lime;
-            this.txtPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPrice.HoverState.Parent = this.txtPrice;
-            this.txtPrice.IconRight = global::BestOil.Properties.Resources.icons8_cash_app_48;
-            this.txtPrice.IconRightSize = new System.Drawing.Size(30, 30);
-            this.txtPrice.Location = new System.Drawing.Point(174, 91);
-            this.txtPrice.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.txtPrice.Name = "txtPrice";
-            this.txtPrice.PasswordChar = '\0';
-            this.txtPrice.PlaceholderForeColor = System.Drawing.Color.Lime;
-            this.txtPrice.PlaceholderText = "";
-            this.txtPrice.SelectedText = "";
-            this.txtPrice.ShadowDecoration.Parent = this.txtPrice;
-            this.txtPrice.Size = new System.Drawing.Size(83, 39);
-            this.txtPrice.TabIndex = 7;
-            this.txtPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.Image = global::BestOil.Properties.Resources.icons8_price_48;
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(20, 82);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(20, 20, 10, 10);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Padding = new System.Windows.Forms.Padding(3);
-            this.guna2PictureBox2.ShadowDecoration.Parent = this.guna2PictureBox2;
-            this.guna2PictureBox2.Size = new System.Drawing.Size(55, 54);
-            this.guna2PictureBox2.TabIndex = 5;
-            this.guna2PictureBox2.TabStop = false;
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.Image = global::BestOil.Properties.Resources.icons8_gasoline_refill_48;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(17, 20);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(20, 20, 10, 10);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Padding = new System.Windows.Forms.Padding(3);
-            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(55, 54);
-            this.guna2PictureBox1.TabIndex = 2;
-            this.guna2PictureBox1.TabStop = false;
+            this.guna2ShadowPanel6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel6.Controls.Add(this.btnCalculate);
+            this.guna2ShadowPanel6.Controls.Add(this.guna2PictureBox11);
+            this.guna2ShadowPanel6.Controls.Add(this.txtAllPrice);
+            this.guna2ShadowPanel6.Controls.Add(this.label10);
+            this.guna2ShadowPanel6.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel6.Location = new System.Drawing.Point(12, 478);
+            this.guna2ShadowPanel6.Name = "guna2ShadowPanel6";
+            this.guna2ShadowPanel6.Radius = 10;
+            this.guna2ShadowPanel6.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel6.Size = new System.Drawing.Size(773, 114);
+            this.guna2ShadowPanel6.TabIndex = 15;
             // 
             // btnCalculate
             // 
@@ -1062,6 +1003,65 @@ namespace BestOil
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
+            // guna2PictureBox11
+            // 
+            this.guna2PictureBox11.Image = global::BestOil.Properties.Resources.icons8_cash_app_48;
+            this.guna2PictureBox11.ImageRotate = 0F;
+            this.guna2PictureBox11.Location = new System.Drawing.Point(709, 20);
+            this.guna2PictureBox11.Margin = new System.Windows.Forms.Padding(20, 20, 10, 10);
+            this.guna2PictureBox11.Name = "guna2PictureBox11";
+            this.guna2PictureBox11.Padding = new System.Windows.Forms.Padding(3);
+            this.guna2PictureBox11.ShadowDecoration.Parent = this.guna2PictureBox11;
+            this.guna2PictureBox11.Size = new System.Drawing.Size(55, 54);
+            this.guna2PictureBox11.TabIndex = 13;
+            this.guna2PictureBox11.TabStop = false;
+            // 
+            // txtAllPrice
+            // 
+            this.txtAllPrice.AutoSize = true;
+            this.txtAllPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAllPrice.Location = new System.Drawing.Point(596, 38);
+            this.txtAllPrice.Name = "txtAllPrice";
+            this.txtAllPrice.Size = new System.Drawing.Size(51, 25);
+            this.txtAllPrice.TabIndex = 13;
+            this.txtAllPrice.Text = "000";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(653, 38);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(57, 25);
+            this.label10.TabIndex = 13;
+            this.label10.Text = "AZN";
+            // 
+            // guna2PictureBox10
+            // 
+            this.guna2PictureBox10.Image = global::BestOil.Properties.Resources.icons8_cafe_building_48;
+            this.guna2PictureBox10.ImageRotate = 0F;
+            this.guna2PictureBox10.Location = new System.Drawing.Point(380, 29);
+            this.guna2PictureBox10.Margin = new System.Windows.Forms.Padding(20, 20, 10, 10);
+            this.guna2PictureBox10.Name = "guna2PictureBox10";
+            this.guna2PictureBox10.Padding = new System.Windows.Forms.Padding(3);
+            this.guna2PictureBox10.ShadowDecoration.Parent = this.guna2PictureBox10;
+            this.guna2PictureBox10.Size = new System.Drawing.Size(55, 54);
+            this.guna2PictureBox10.TabIndex = 14;
+            this.guna2PictureBox10.TabStop = false;
+            // 
+            // guna2PictureBox9
+            // 
+            this.guna2PictureBox9.Image = global::BestOil.Properties.Resources.icons8_gas_station_50;
+            this.guna2PictureBox9.ImageRotate = 0F;
+            this.guna2PictureBox9.Location = new System.Drawing.Point(32, 25);
+            this.guna2PictureBox9.Margin = new System.Windows.Forms.Padding(20, 20, 10, 10);
+            this.guna2PictureBox9.Name = "guna2PictureBox9";
+            this.guna2PictureBox9.Padding = new System.Windows.Forms.Padding(3);
+            this.guna2PictureBox9.ShadowDecoration.Parent = this.guna2PictureBox9;
+            this.guna2PictureBox9.Size = new System.Drawing.Size(55, 54);
+            this.guna2PictureBox9.TabIndex = 13;
+            this.guna2PictureBox9.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1077,32 +1077,34 @@ namespace BestOil
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.guna2ShadowPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximumSize = new System.Drawing.Size(800, 638);
+            this.MinimumSize = new System.Drawing.Size(800, 638);
             this.Name = "Form1";
             this.Text = "Form1";
             this.guna2ShadowPanel1.ResumeLayout(false);
             this.guna2ShadowPanel1.PerformLayout();
             this.guna2ShadowPanel3.ResumeLayout(false);
             this.guna2ShadowPanel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             this.guna2ShadowPanel2.ResumeLayout(false);
             this.guna2ShadowPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2ShadowPanel4.ResumeLayout(false);
             this.guna2ShadowPanel4.PerformLayout();
             this.guna2ShadowPanel5.ResumeLayout(false);
             this.guna2ShadowPanel5.PerformLayout();
-            this.guna2ShadowPanel6.ResumeLayout(false);
-            this.guna2ShadowPanel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            this.guna2ShadowPanel6.ResumeLayout(false);
+            this.guna2ShadowPanel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
